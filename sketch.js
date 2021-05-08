@@ -49,7 +49,7 @@ function setup() {
 
  // getBackgroundImg()
   
-    ground=createSprite(width/2,height-50,width+50,20);
+    ground=createSprite(windowWidth/2,windowHeight-50,windowWidth+50,20);
     ground.visible=false;
 
     player=createSprite(100,height-100,20,20);

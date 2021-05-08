@@ -38,7 +38,7 @@ function preload(){
   downImg=loadImage("photos/DownButton.png")
   leftImg=loadImage("photos/rightButton.png")
   rightImg=loadImage("photos/leftButton.png");
-  computerAxeUpImg=loadImage("photos/weapon1.PNG");
+  computerAxeUpImg=loadImage("photos/weapon1.png");
   computerAxeDownImg=loadImage("photos/weapon12.png");
 hitSnd=loadSound("sound/hit.mp3")
 jumpSnd=loadSound("sound/jump.mp3")

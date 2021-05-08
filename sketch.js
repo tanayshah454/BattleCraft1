@@ -55,13 +55,11 @@ function setup() {
     player=createSprite(100,height-100,20,20);
     player.addImage(player1_img);
     player.scale=0.5;
-    player.debug=true;
     player.setCollider("rectangle",0,0,160,300)
 
     computer=createSprite(width-100,height-100,20,20);
     computer.addImage(player2_img);
     computer.scale=0.5;
-    computer.debug=true;
     computer.setCollider("rectangle",0,0,160,300)
 
     gameState="play";
@@ -79,12 +77,10 @@ function setup() {
     computerAxe.addImage(computerAxeUpImg);
     computerAxe.scale=0.2
     computerAxe.visible=false;
-    computerAxe.debug=true
 
     playerTrident=createSprite(player.x,player.y);
     playerTrident.addImage(playerTridentImg);
     playerTrident.scale=0.5;
-    playerTrident.debug=true
     computerTrident=createSprite(computer.x,computer.y);
     computerTrident.addImage(computerTridentImg);
     computerTrident.scale=0.5;
